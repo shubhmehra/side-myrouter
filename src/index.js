@@ -10,7 +10,8 @@ import NotFound from "./NotFound";
 
 const routing = (
   <Router>
-    <div>
+    {/* Usually this <div className="route-ex"> will be in separate file but I have put this to keep it simple & undestandable */}
+    <div className="route-ex">
       <ul>
         <li>
           <Link to="/">Home</Link>
